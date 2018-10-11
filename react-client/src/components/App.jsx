@@ -1,19 +1,17 @@
 import React from "react";
-import WarningMessage from "./WarningMessage";
 import Header from "./Header";
+import Main from "./Main";
+import Footer from "./Footer"
+
 
 class App extends React.Component {
   render() {
     return (
       <React.Fragment>
         <Header />
-        <div className="component-app">
-          hello world
-        </div>
-        <WarningMessage />
-        <WarningMessage />
-        <WarningMessage />
-        <WarningMessage />
+          <Main />
+          <Footer />
+
       </React.Fragment>
     );
   }
